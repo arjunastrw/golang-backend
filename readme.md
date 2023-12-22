@@ -1,4 +1,5 @@
-project-root/
+**_FLOW_**
+tech-test/
 |-- cmd/
 | |-- main.go (entry point)
 |-- internal/
@@ -30,3 +31,20 @@ project-root/
 |-- go.mod
 |-- go.sum
 |-- README.md
+
+# Install Golang package manager
+
+go get -u github.com/golang/dep/cmd/dep
+
+# Install Golang WebSocket library
+
+go get -u github.com/gorilla/websocket
+
+# Install PostgreSQL driver for Golang
+
+go get -u github.com/lib/pq
+
+# Install Golang OAuth2 library
+
+go get -u golang.org/x/oauth2
+go get -u golang.org/x/oauth2/google
